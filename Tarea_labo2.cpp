@@ -20,6 +20,7 @@ class Pila{
         n->sig = nullptr;
         return n;
         }
+   
     void push( int valor){
         string cadena="";
         cadena=to_string(valor);
@@ -57,12 +58,10 @@ class Pila{
 int main()
 {
     Pila pila;
-  // string cadena="15";
- // for ( int i =0; i<cadena.size();i++)
-  //{
+ 
+   //Aqui es donde se escribe el numero a apilar
      pila.push(1535);
-    // cout<<endl;
-      //}
+   
 
 //pila.push(10);
 pila.mostrarPila();
